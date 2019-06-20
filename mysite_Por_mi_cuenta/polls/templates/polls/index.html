@@ -1,0 +1,7 @@
+{%if latest_questions%}
+<ul>
+	{%for question in latest_questions%}
+	<li><a href="{%url 'detail' question.id%}">{{question}}</a></li>
+	{%endfor%}
+</ul>
+{%endif%}

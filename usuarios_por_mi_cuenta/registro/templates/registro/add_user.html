@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add user</title>
+</head>
+<body>
+	<center>
+		<h1>Add user</h1>
+		<form action="{% url 'save_user' nombre = nombre %}"> 
+			{% csrf_token %}
+			<label>Nombre</label>
+			<input type="text" name="nombre"><br>
+
+			<label>Password</label>
+			<input type="password" name="passw"><br>
+
+			<label>Nickname</label>
+			<input type="text" name="nickname"><br><br>
+
+			<input type="submit" name="guardar">
+
+		</form>
+	</center>
+</body>
+</html>

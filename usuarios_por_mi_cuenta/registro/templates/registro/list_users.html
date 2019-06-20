@@ -1,0 +1,12 @@
+{%if list_users%}
+<ul>
+	{%for user in list_users%}
+	<li>
+		<b>Name: </b>{{user.nombre}}<br>
+		<b>Passw: </b>{{user.passw}}<br>
+		<b>Nickname: </b>{{user.nickname}}<br>
+		<b>Fecha_reg: </b>{{user.fecha_reg}}<br><br>
+	</li>
+	{%endfor%}
+</ul>
+{%endif%}

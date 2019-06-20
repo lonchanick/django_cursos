@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing Python 3.algo </title>
+</head>
+<body>
+	<center>
+		<h1>Wellcome to the jungle!</h1>
+		<form action="{% url 'add_user' %}" method="post">
+			{% csrf_token %}
+			<input type="submit" name="add_user" value="Add User">
+		</form>
+
+		<form action="{% url 'list_users' %}" method="post">
+			{% csrf_token %}
+			<input type="submit" name="list_user" value="list users">
+		</form>
+
+	</center>
+</body>
+</html>

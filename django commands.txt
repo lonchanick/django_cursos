@@ -1,0 +1,67 @@
+================
+ Django Commands
+================ 
+* para iniciar un nuevo proyecto: django-admin.py startproject PROJECT
+* Iniciar el servidor: python manage runserver
+* Para crear una nueva aplicacion dentro de nuestra aplicacion
+ya existente: python manage.py startapp xxxx (Ej. polls) //"xxxx" es un nombre cualquiera
+
+* para crear las migraciones
+python manage.py makemigrations polls
+
+* para ejecutar las migraciones
+python manage.py migrate
+
+* para ver el codigo SQL que esta empleando python para crear nuestros modelos:
+python manage.py sqlmigrate polls 0001 // "polls" y "0001" son el nombre de la app 
+y el numero de migracion correspodientemente
+
+* inicia la consola de DJANGO:
+python manage.py shell
+
+* crear un nuevo usuario de Django-admin
+python manage.py createsuperuser
+
+
+	=====================
+	Django Shell Commands
+	=====================
+	* para importar una libreria "timezone"
+	from django.utils import timezone
+	* para importar los modelos con los que se quiere tratar:
+	from polls.models import Question, Choice
+
+	Manipulacion de modelos (TABLAS)
+	""""""""""""""""""""""""""""""""
+	* Question.objects.all() //para listar todo los registros del modelo "Questions"
+	* Question.objects.get(id=1) //para seleccionar un objeto
+	* Question.objects.filter(id=1) //devuelve una lista de objetos "querySet"
+	* q = Question(question_text="Que comida prefieres?") //instancia un objeto de tipo "Question" contenido en la variable "q"
+	* q.save() //para guardar un objeto nuevo en el modelo
+	* q.xxx //para ver uno de sus atributos //xxx es el nombre del atributo
+	* q.id //muestra el ID asignado al objeto UNA VES ALMACENADO EN LA BASE DE DATOS
+	* para selecionar los registros de la tabla(modelo) "Choice" cullos votos sean >1
+		Choice.objects.filter(votes__gt=1)
+	* para filtrar por varios parametros de filtrado:
+		Choice.objects.filter(votes__gt=1)
+
+	Podemos crear nuevos registros en un modelo donde se requiere una clave foranea
+	trabajando directamente desde el objeto foraneo, para ello se emplea la siguiente
+	convension de nombre: nombre_objeto.nombreClaseforanea_set.create("Param") Ej.
+		q.choice_set.create(choise_text="pizza")
+		q.choice_set.all()//para ver todos los registros de ese objeto
+		
+		METODOS DE FILTRADO
+		"""""""""""""""""""
+			* filtrado por año. esto solo es posible gracias a que se trata de un campo
+			  tipo date:
+			  	Ej. q = Question.objects.filter(pub_date__year=2019)
+
+			* fistrado por un campo tipo text
+				Ej. q = Question.objects.filter(question_text="test pregunta")
+
+			* filtrar todas las que empiezan por "x" letra
+				Ej. Ej. q = Question.objects.filter(question_text__startswith="Q")
+																   
+
+
