@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'polls',
     'working_modelos',
     'many_to_one_example',
+    'many_to_many_example',
 ]
 
 MIDDLEWARE = [
