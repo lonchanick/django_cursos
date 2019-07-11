@@ -18,9 +18,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('polls/', include('polls.urls')),
+    path('', include('polls.urls')),
     path('modelos/', include('working_modelos.urls')),
-    path('many_to_one/', include('many_to_one_example.urls')),
-    path('many_to_many/', include('many_to_many_example.urls')),
+    path('working_forms/', include('working_forms.urls')),
 
 ]

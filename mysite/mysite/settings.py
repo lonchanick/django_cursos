@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'polls',
     'working_modelos',
-    'many_to_one_example',
-    'many_to_many_example',
+    'working_forms',
 ]
 
 MIDDLEWARE = [

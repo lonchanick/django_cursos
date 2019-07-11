@@ -1,3 +1,4 @@
 .databases #muestra el archivo fisico de la base de datos
 .tables #muestra las tablas en la base de datos
 .quit #salir
+drop table PARAM //PARA ELIMINAR TABLA

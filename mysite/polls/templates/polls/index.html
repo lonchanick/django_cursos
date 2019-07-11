@@ -1,4 +1,5 @@
 {%if latest_questions%}
+<h1>Wellcome to Polls Aplications</h1>
 <ul>
 	{%for question in latest_questions%}
 	<li><a href="{%url 'detail' question.id%}">{{question}}</a></li>
