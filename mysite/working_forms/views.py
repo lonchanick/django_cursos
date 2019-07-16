@@ -1,11 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from .forms import NameForm, ContactForm
+from django.urls import reverse
 
 # Create your views here.
 
 def index(request):
 	return render(request, 'working_forms.html', {})
+
+def thanks(request):
+    return HttpResponseRedirect(reverse('thanks.html'))
 
 def ejemplo_2(request):
     # if this is a POST request we need to process the form data
@@ -25,7 +29,7 @@ def ejemplo_2(request):
 
     return render(request, 'ejemplo_2.html', {'form': form})
 
-def ejemplos(request):
+def ejemplo_1(request):
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -41,5 +45,5 @@ def ejemplos(request):
     else:
         form = NameForm()
 
-    return render(request, 'name.html', {'form': form})
+    return render(request, 'ejemplo_1.html', {'form': form})
  
