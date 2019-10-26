@@ -5,7 +5,7 @@
 * Iniciar el servidor: python manage runserver
 * Para crear una nueva aplicacion dentro de nuestra aplicacion
 ya existente: python manage.py startapp xxxx (Ej. polls) //"xxxx" es un nombre cualquiera
-
+* python -m django --version //para mostrar la version actual innstalada
 * para crear las migraciones
 python manage.py makemigrations polls
 
@@ -23,9 +23,9 @@ python manage.py shell
 python manage.py createsuperuser
 
 
-	=====================
-	Django Shell Commands
-	=====================
+	============================================
+	Django Shell Commands playing with the(ORM)
+	============================================
 	* para importar una libreria "timezone"
 	from django.utils import timezone
 	* para importar los modelos con los que se quiere tratar:
