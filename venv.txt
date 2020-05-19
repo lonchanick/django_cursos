@@ -1,0 +1,21 @@
+===================================
+		VENV
+===================================
+- Crear un nuevo entorno virtual
+	python3 -m venv myvenv
+
+- Activar el nuevo entorno virtual
+	source myvenv/bin/activate
+
+- Desactivar venv
+	deactivate
+
+
+===================================
+		VIRTUALENV
+===================================
+Para crear un nuevo entorno virtual
+	virtualenv env --python=python3 #hay que indicarle que use python 3
+
+Para activar el nuevo venv
+	source env/bin/activate #env es el nombre del entorno
