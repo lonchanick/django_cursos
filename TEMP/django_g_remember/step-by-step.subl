@@ -1,0 +1,16 @@
+* installar
+	- python
+	- django
+	- virtual env
+
+1- iniciar projecto django: django-admin.py -> startproject project-name
+2- iniciar nueva app dentro del proyecto -> python manage.py startapp app-name
+	2.1- registra la nueva app en el archivo config.py
+3- crea el o los modelos a utilizar en el archivo models.py de tu app
+	3.1- crea la migracion del modelo -> python manage.py makemigration
+	3.2- migra el modelo -> python manage.py migrate
+4- habilita el admin de django
+	4.1- importa el modelo -> from .models import Post
+	4.2- registra el modelo -> admin.site.register(Post)
+
+# python manage.py shell //inicia la consola interactiva

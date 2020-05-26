@@ -1,0 +1,839 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spa",
+				"span\tTag"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"publi",
+				"published_date"
+			],
+			[
+				"Date",
+				"DATETIME_FORMAT"
+			],
+			[
+				"Fore",
+				"unique_for_date"
+			],
+			[
+				"path",
+				"path_to_write"
+			],
+			[
+				"elem",
+				"elem_no_encont"
+			],
+			[
+				"custom-con",
+				"custom-control-input"
+			],
+			[
+				"che",
+				"chexb2"
+			],
+			[
+				"ch",
+				"chexb"
+			],
+			[
+				"custom-cont",
+				"custom-control-label"
+			],
+			[
+				"togSw",
+				"togSwit1"
+			],
+			[
+				"custom-control-",
+				"custom-control-input"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"custom-control",
+				"custom-control-inline"
+			],
+			[
+				"cus",
+				"cusCont"
+			],
+			[
+				"__",
+				"__iter__"
+			],
+			[
+				"ne",
+				"__next__"
+			],
+			[
+				"Eje",
+				"Ejem_de_def_de_clase"
+			],
+			[
+				"enu",
+				"enum"
+			],
+			[
+				"fun",
+				"fun_assert"
+			],
+			[
+				"reve",
+				"reversedx"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"tupla",
+				"tuapla_de_tuplas"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"Use",
+				"UserCreationForm"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"bot",
+				"button\tTag"
+			],
+			[
+				"diccionario",
+				"diccionario_pc"
+			],
+			[
+				"opt",
+				"optgroup\tTag"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"post",
+				"post_new"
+			],
+			[
+				"print",
+				"print_io"
+			],
+			[
+				"bo",
+				"blockquote\tTag"
+			],
+			[
+				"prin",
+				"print_io"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"auto",
+				"autofocus\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"User",
+				"UserForm"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ejemplo",
+				"ejemplo_2"
+			],
+			[
+				"working",
+				"Working_Forms"
+			],
+			[
+				"worki",
+				"Working_Forms"
+			],
+			[
+				"for",
+				"working_forms"
+			],
+			[
+				"ar",
+				"archivos_de_muestra"
+			],
+			[
+				"fichero",
+				"ficherosDe_clases"
+			],
+			[
+				"spl",
+				"splitext"
+			],
+			[
+				"by",
+				"byte_size"
+			],
+			[
+				"b",
+				"bytes_var"
+			],
+			[
+				"ruta",
+				"rutas_archivos"
+			],
+			[
+				"x",
+				"xml"
+			],
+			[
+				"una",
+				"una_lista"
+			],
+			[
+				"metad",
+				"metadata"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"co",
+				"conjunto_2"
+			],
+			[
+				"con",
+				"conjunto_2"
+			],
+			[
+				"conjunto",
+				"conjunto_1"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"tex-al",
+				"text-align\tproperty"
+			],
+			[
+				"do",
+				"Download"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"question",
+				"question_text"
+			],
+			[
+				"home",
+				"home_test"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"ques",
+				"question_text"
+			],
+			[
+				"http",
+				"HttpResponse"
+			],
+			[
+				"q",
+				"question_text"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"c",
+				"cccccc"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"nom",
+				"nombre-contacto"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"pla",
+				"players"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"card",
+				"card_values"
+			],
+			[
+				"de",
+				"deck"
+			],
+			[
+				"sr",
+				"str_cards"
+			],
+			[
+				"pri",
+				"printDeck"
+			],
+			[
+				"vida",
+				"vida_base"
+			],
+			[
+				"e",
+				"edad"
+			],
+			[
+				"contac",
+				"contact_index"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"load",
+				"load_contacts"
+			],
+			[
+				"fram",
+				"frame_contact_list"
+			],
+			[
+				"contacts",
+				"contacts"
+			],
+			[
+				"contact",
+				"contact"
+			],
+			[
+				"fee",
+				"feet_entry"
+			],
+			[
+				"main",
+				"mainframe"
+			],
+			[
+				"contact_in",
+				"contact_index"
+			],
+			[
+				"SHOW",
+				"show_all"
+			],
+			[
+				"AC",
+				"ACTION_REMOVE_CONTACT"
+			],
+			[
+				"ACT",
+				"ACTION_ADD_CONTACT"
+			],
+			[
+				"time",
+				"time_text"
+			],
+			[
+				"hours",
+				"hours_file"
+			],
+			[
+				"ni",
+				"day_night_lable"
+			],
+			[
+				"da",
+				"day_night_lable"
+			],
+			[
+				"cu",
+				"cumpleanos_cuando"
+			],
+			[
+				"ha",
+				"hace_cuantos_dias"
+			],
+			[
+				"numero",
+				"numero_contacto"
+			],
+			[
+				"nomb",
+				"nombre_a_buscar"
+			],
+			[
+				"lista",
+				"lista_numeros"
+			],
+			[
+				"ran",
+				"ran_infe"
+			],
+			[
+				"num",
+				"num_max"
+			],
+			[
+				"n",
+				"n_comas"
+			],
+			[
+				"n_",
+				"n_puntos"
+			],
+			[
+				"nu",
+				"numero_elemento"
+			],
+			[
+				"PO",
+				"POKE1"
+			],
+			[
+				"ata",
+				"ataque_elegido"
+			],
+			[
+				"vida_",
+				"vida_enemigo"
+			],
+			[
+				"poke",
+				"pokemon_elegido"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"django",
+				"DjangoTag: Insert/Switch Block"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Quiz let/Vocabulario.txt",
+		"/home/israel/DEV/django_cursos/venv.txt",
+		"/home/israel/DEV/django_cursos/django commands.txt",
+		"/home/israel/DEV/django_cursos/current subject Django study.txt",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/post_detail.html",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/add_comment_to_post.html",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/urls.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/views.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/post_list.html",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/models.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/base.html",
+		"/home/israel/DEV/TEMP/django_g_remember/mysite/urls.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/forms.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/admin.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/static/css/blog.css",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/registration/login.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Flash cards temp.txt",
+		"/home/israel/DEV/TEMP/django_g_remember/mysite/settings.py",
+		"/home/israel/DEV/python_cursos/ar_python/python_ar.py",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/draft_post_list.html",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/templates/blog/post_edit.html",
+		"/home/israel/DEV/python_cursos/general_lab.py",
+		"/home/israel/DEV/bootstrap/parts/input_groups.html",
+		"/home/israel/DEV/bootstrap/parts/list_groups.html",
+		"/home/israel/DEV/python_cursos/ar_python/paython_ar-project",
+		"/home/israel/DEV/TEMP/django_g_remember/step-by-step.subl",
+		"/home/israel/DEV/bootstrap/home.html",
+		"/home/israel/DEV/TEMP/django_g_remember/blog/static/css/style.css",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/6) Water of Life - English.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/preguntas_de_grupo.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/palabras_español.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Regla ingles.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/Platicas/1.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/irreguar verbs.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/lesson:terminaciones.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/lesson:connectors.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/statics/lesson:connectors.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/5.1)The Satan and Demons - English.txt",
+		"/home/israel/DEV/TEMP/django_g_remember/sublime_text/django_g_remember.sublime-project",
+		"/home/israel/DEV/bash_curso/comando linux.txt",
+		"/home/israel/DEV/python_cursos/python_ar.py",
+		"/home/israel/DEV/python_cursos/exercises_web.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/5) The Satan and Demons - Spanish.txt",
+		"/home/israel/DEV/python_cursos/warever/warever.txt",
+		"/home/israel/DEV/python_cursos/file.txt",
+		"/home/israel/DEV/python_cursos/file_to_save.txt",
+		"/home/israel/DEV/bootstrap/parts/font_awesome.html",
+		"/home/israel/DEV/bootstrap/parts/BASE.html",
+		"/home/israel/DEV/bootstrap/parts/multi_columns.html",
+		"/home/israel/DEV/bootstrap/parts/nested_columns.html",
+		"/home/israel/DEV/bootstrap/parts/tables.html",
+		"/home/israel/DEV/bootstrap/parts/test_area.html",
+		"/home/israel/DEV/bootstrap/parts/lists.html",
+		"/home/israel/DEV/bootstrap/parts/home_part_1.html",
+		"/home/israel/DEV/bootstrap/parts/forms.html",
+		"/home/israel/DEV/bootstrap/parts/fixed_layout.html",
+		"/home/israel/DEV/bootstrap/parts/custom_form_control.html",
+		"/home/israel/DEV/html_y_css_curso/NMD/formularios/combo_box.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lessons/lesson:unidades_de_medida.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lesson:unidades_de_medida.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lesson:terminaciones.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/statics/irreguar verbs.txt",
+		"/home/israel/DEV/bootstrap/parts/base.html",
+		"/home/israel/Documentos/temp.subl",
+		"/home/israel/Documentos/OLX_account.txt",
+		"/home/israel/DEV/bootstrap/home_part_1.html",
+		"/home/israel/DEV/bootstrap/home_part1.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/4) How to Read the Bible_ The Parables of Jesus - English.txt",
+		"/home/israel/DEV/bootstrap/site/home.html",
+		"/home/israel/DEV/bootstrap/site/styles/styles.css",
+		"/home/israel/DEV/html_y_css_curso/NMD/home.html",
+		"/home/israel/DEV/html_y_css_curso/nate_gentile/sobre_mi.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/lesson:connectors.txt",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/conjuntos.py",
+		"/home/israel/DEV/git_curso/testing_file.txt",
+		"/home/israel/Descargas/TEST_AREA/git_curso/uniwebsidad",
+		"/home/israel/DEV/git_curso/uniwebsidad/index.html",
+		"/home/israel/DEV/git_curso/commands.txt",
+		"/home/israel/DEV/git_curso/uniwebsidad",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/3) Tree of Life - English.txt",
+		"/home/israel/DEV/.gitignore",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/lab.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/index.py",
+		"/home/israel/Descargas/scangearmp-source-2.00-1/scangearmp-common.spec",
+		"/home/israel/Descargas/Tree of Life - English.txt",
+		"/home/israel/DEV/html_y_css_curso/NMD/statics/css_subject/statics/first_one.html",
+		"/home/israel/DEV/html_y_css_curso/NMD/statics/css_subject/index_css.html",
+		"/home/israel/DEV/html_y_css_curso/NMD/statics/css_subject/statics/styles.css",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/TEMP.subl",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/practicepython.org.py",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/irreguar verbs.txt",
+		"/home/israel/DEV/html_y_css_curso/NMD/statics/styles.css",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/2) How to Read the Bible The Law.txt",
+		"/home/israel/DEV/html_y_css_curso/NMD/formularios/estilizado_css.css",
+		"/home/israel/DEV/html_y_css_curso/NMD/formularios/estilizado.html",
+		"/home/israel/DEV/html_y_css_curso/NMD/statics/formularios.html",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/peculiaridades.py",
+		"/home/israel/Descargas/manifest.json",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/Word Study Martus - Witness (VIDEO).txt",
+		"/home/israel/DEV/html_y_css_curso/NMD/formularios/ejemplo_1.html",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/The Bible project/How to Read the Bible The Law.txt",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/tuplas_de_funciones.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/diccionarios.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/listas.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/exercises_web.py",
+		"/home/israel/DEV/proyectos/my_site/yo_futbole/templates/yo_futbole/home.html",
+		"/home/israel/DEV/proyectos/my_site/register/templates/registration/logout.html",
+		"/home/israel/DEV/proyectos/my_site/my_site/settings.py",
+		"/home/israel/DEV/proyectos/my_site/register/templates/registration/login.html",
+		"/home/israel/DEV/proyectos/my_site/yo_futbole/static/css/style.css",
+		"/home/israel/DEV/proyectos/my_site/my_site/urls.py",
+		"/home/israel/DEV/proyectos/my_site/yo_futbole/views.py",
+		"/home/israel/DEV/proyectos/my_site/yo_futbole/urls.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/modulo_os.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/ficherosDe_clases/utiles.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/print_figura.py",
+		"/home/israel/DEV/proyectos/my_site/register/templates/register/register.html",
+		"/home/israel/DEV/proyectos/my_site/manage.py",
+		"/home/israel/DEV/python_cursos/inmersion_en_python3/a.out",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/filipenses 4:19.txt",
+		"/media/israel/DE7C3D7D7C3D520F/Users/Karla/Google Drive/Spanglish/statics/how come.txt",
+		"/home/israel/Descargas/documentos/20181019_113848.jpg",
+		"/home/israel/DEV/html_y_css_curso/nate_gentile/styles.css",
+		"/home/israel/DEV/proyectos/my_site/register/views.py",
+		"/home/israel/DEV/proyectos/my_site/register/forms.py",
+		"/home/israel/DEV/proyectos/my_site/yo_futbole/templates/yo_futbole/test_area.html",
+		"/home/israel/DEV/completo_django_girls/blog/templates/blog/post_edit.html",
+		"/home/israel/DEV/completo_django_girls/blog/templates/blog/post_list.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"padd",
+			"siempre",
+			"were"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 151.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "django_g_remember.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"polls/inde",
+				"Django_cursos/official_web_tutorial/mysite/polls/templates/polls/index.html"
+			],
+			[
+				"polls/index",
+				"Django_cursos/official_web_tutorial/mysite/polls/templates/polls/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

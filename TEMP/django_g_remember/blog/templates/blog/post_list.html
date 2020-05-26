@@ -1,0 +1,17 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for post in posts %}
+        <div class="post">
+            <div class="date">
+                <p>publicado: {{ post.published_date }}</p>
+            </div>
+            <a href="{% url 'post_detail' pk=post.pk %}" title="cuenta los comentarios aprobados">Comments: {{ post.approved_comments.count }}</a><small>Esta funcion no vale</small><br>
+        	<a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.comments.count }}</a>
+            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+
+
+    {% endfor %}
+{% endblock %}
+                
