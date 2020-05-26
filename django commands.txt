@@ -13,8 +13,7 @@ python manage.py makemigrations polls
 python manage.py migrate
 
 * para ver el codigo SQL que esta empleando python para crear nuestros modelos:
-python manage.py sqlmigrate polls 0001 // "polls" y "0001" son el nombre de la app 
-y el numero de migracion correspodientemente
+python manage.py sqlmigrate polls 0001 // "polls" y "0001" son el nombre de la app  y el numero de migracion correspodientemente
 
 * inicia la consola de DJANGO:
 python manage.py shell

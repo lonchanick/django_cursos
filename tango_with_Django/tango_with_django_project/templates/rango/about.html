@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+	<title>Rango</title>
+</head>
+<body>
+	<h1>Rango says...</h1>
+
+	<div>
+		hey there partner! <br/>
+		<strong>{{ boldmessage }}</strong><br />
+	</div>
+
+	<div>
+	<a href="/rango/israel/">Israel</a><br />
+	<img src="{% static 'images/israel_land.jpg' %}" alt="Picture of Rango" />
+	<br>
+	<img src="{{MEDIA_URL}}mrbean.jpg">
+	</div>
+
+</body>
+</html>

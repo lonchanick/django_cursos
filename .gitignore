@@ -1,1 +1,7 @@
 django_girls
+.pyc
+.DS_Store
+__pycache__/
+db.sqlite3
+*.key
+thumbs.db
