@@ -14,9 +14,38 @@
 	</div>
 
 	<div>
-	<a href="/rango/about/">About</a><br />
-	<a href="/rango/israel/">Israel</a><br />
-	<img src="{% static 'images/rango.jpeg' %}" alt="Picture of Rango" />
+		<h2>Most Liked Categories</h2>
+		<a href="/rango/add_category/"><strong>add a category</strong></a>
+		{% if categories %}
+			<ul>
+			{% for category in categories %}
+				<a href="/rango/category/{{ category.slug }}/">{{ category.name }} {{category.views}}</a><br>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<strong>There are not categories present</strong>
+		{% endif %}
+	</div>
+
+	<div>
+		<h2>Most Viewed Pages</h2>
+		
+		{% if five_most_viewed_pages %}
+			<ul>
+			{% for page in five_most_viewed_pages %}
+				{{page.title}} <a href="" title="views">{{page.views}}</a><br>
+
+			{% endfor %}
+			</ul>
+		{% else %}
+			<strong>There are not pages present.... </strong>
+		{% endif %}
+	</div>
+
+	<div>
+		<a href="/rango/about/">About</a><br />
+		<a href="/rango/israel/">Israel</a><br />
+		<img src="{% static 'images/rango.jpeg' %}" alt="Picture of Rango" />
 	</div>
 
 </body>

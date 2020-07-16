@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>detail.html</title>
+</head>
+<body>
+
+<strong>QUESTION: {{q.question_text}}</strong>
+
+{%if error_message %}
+	<span>&nbsp;{{error_message}}</span>
+{%endif%}	
+
+{% if q.choice_set.all %}
+<form method="POST" action="{% url 'polls:vote' q.id %}" > {%csrf_token%}
+	{% for i in q.choice_set.all %}
+		<input type="radio" id="choice{{forloop.counter}}" value="{{i.id}}" name="choice">
+		<label for="choice{{forloop.counter}}" >{{i.choice_text}} -> </label>
+		{{i.votes}}<br>
+	{%endfor%}
+	<button type="submit" >Enviar</button>
+</form>
+{% else %}
+	<p>There is not choices to this question</p>
+{%endif%}	
+
+	
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>detail.html</title>
+</head>
+<body>
+
+{%if error_message %}
+	<span>&nbsp;{{error_message}}</span>
+{%endif%}
+
+<span><strong>(results.html page) Pregunta: </strong>{{q.question_text}}</span><br>
+
+{% for i in q.choice_set.all %}
+	{{i.choice_text}} -> {{i.votes}}<br>
+{%endfor%}
+
+</body>
+</html>

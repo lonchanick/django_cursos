@@ -13,24 +13,33 @@ django.setup()
 from rango.models import Category,Page
 
 def populate():
+	import random
+	min,max=100,1000
+	g=lambda min,max:random.randint(min,max) #genera un numero aleatorio entre 100 y 1000
 	python_pages=[{'title':'Official Python Tutorial',
-				   'url':'http://docs.python.org/3/tutorial/'},
+				   'url':'http://docs.python.org/3/tutorial/',
+				   'views':g(min,max)},
 				   {'title':'How to Think like a Computer Scientist',
-				   'url':'http://www.greenteapress.com/thinkpython/'},
+				   'url':'http://www.greenteapress.com/thinkpython/',
+				   'views':g(min,max)},
 				   {'title':'Learn Python in 10 Minutes',
-				   'url':'http://www.korokithakis.net/tutorials/python/'}]
+				   'url':'http://www.korokithakis.net/tutorials/python/',
+				   'views':g(min,max)}]
 
 	django_pages=[{'title':'Official Django Tutorial',
-				   'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/'},
+				   'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/',
+				   'views':g(min,max)},
 				   {'title':'Django Rocks',
-				   'url':'http://www.djangorocks.com/'},
+				   'url':'http://www.djangorocks.com/',
+				   'views':g(min,max)},
 				   {'title':'How to Tango with Django',
-				   'url':'http://www.tangowithdjango.com/'}]
+				   'url':'http://www.tangowithdjango.com/',
+				   'views':g(min,max)}]
 
 	other_pages=[
-				{'title':'Bottle','url':'http://bottlepy.org/docs/dev/'},
-				{'title':'Flask','url':'http://flask.pocoo.org'},
-				{'title':'Django Girls','url':'djangogirls.org'}]
+				{'title':'Bottle','url':'http://bottlepy.org/docs/dev/','views':g(min,max)},
+				{'title':'Flask','url':'http://flask.pocoo.org','views':g(min,max)},
+				{'title':'Django Girls','url':'djangogirls.org','views':g(min,max)}]
 
 	'''
 	cat={'Python':{'page':python_pages},
@@ -45,11 +54,11 @@ def populate():
 	for cat, cat_data in cat.items():
 		c=add_cat(cat,cat_data[1],cat_data[2])
 		for p in cat_data[0]['page']:
-			add_page(c,p['title'],p['url'])
+			add_page(c,p['title'],p['url'],p['views'])
 
 	for c in Category.objects.all():
 		for p in Page.objects.filter(category=c):
-			print('- {0} - {1}'.format(str(c),str(p)))
+			print('- {0} - {1} - {2}'.format(str(c),str(p),p.views))
 
 def add_page(cat,title,url,views=0):
 	p=Page.objects.get_or_create(category=cat,title=title)[0]
@@ -66,11 +75,14 @@ def add_cat(name,views,likes):
 	return c
 
 def main():
-	"""print('Starting Rango population script...')
-				populate()"""
-	n,a='Irael','Arroyo'
-	c={'datos':[n,a]}
-	print(n,a)
+	print('Starting Rango population script...')
+	populate()
+
+	'''n,a='Irael','Arroyo'
+				c={'datos':[n,a]}
+				print(n,a)'''
+	
+
 	
 
 if __name__ == '__main__':

@@ -1,0 +1,39 @@
+===================================
+		VENV
+===================================
+- Crear un nuevo entorno virtual
+	python3 -m venv myvenv
+
+- Activar el nuevo entorno virtual
+	source myvenv/bin/activate
+
+- Desactivar venv
+	deactivate
+
+
+===================================
+		VIRTUALENV
+===================================
+Para crear un nuevo entorno virtual
+	virtualenv env --python=python3 #hay que indicarle que use python 3
+
+Para activar el nuevo venv
+	source env/bin/activate #env es el nombre del entorno
+
+
+===================================
+		virtualenvwrapper
+===================================
+1RO EJECUTAR ESTO: source `which virtualenvwrapper.sh`
+2DO EJECUTA ESTO: echo "source /path/to/virtualenvwrapper.sh" >> ~/.profile
+(SABRA dios por que)
+mkvirtualenv <name> creates and activates a new virtual environment of name <name>.
+
+workon <name> switches on a virtual environment of name <name>.
+
+deactivate switches off a virtual environment you are currently using.
+
+rmvirtualenv <name> deletes a virtual environment of name <name>.
+
+lsvirtualenv lists all user-created virtual environments.
+

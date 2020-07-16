@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>question_startswith.html</title>
+</head>
+<body>
+
+<h1>Question startswith 'ultra'</h1>
+{% if q %}
+	{% for i in q %}
+		{{i.question_text}}<br>
+	{%endfor%}
+{% else %}
+	<p>FROM TEMPLATE: No hay preguntas que correspondan con ese patron de busqueda</p>
+{% endif%}	
+
+</body>
+</html>

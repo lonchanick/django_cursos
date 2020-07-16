@@ -16,6 +16,13 @@ class Pregunta(models.Model):
 
 	def __str__(self):
 		return "->{}".format(self.texto)
+
+class Owner(models.Model):
+    nombre = models.CharField(max_length = 200,default="default_name")
+
+class Item(models.Model):
+    owner = models.ForeignKey(Owner, related_name='items', on_delete = models.CASCADE)
+    nombre = models.CharField(max_length = 200,default="default_name")
 		
 
 		

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+	<title>Rango</title>
+</head>
+<body>
+
+	<div>
+		{% if category %}
+			<h1>Category: {{ category.name }}</h1>
+			
+			{% if pages %}
+				<a href="/rango/category/{{category.slug}}/add_page/"><strong>add page</strong></a>
+				<ul>
+				{% for page in pages %}
+					<li><a href="https://{{ page.url }}">{{ page.title }}</a></li>
+				{% endfor %}
+				</ul>
+			{% else %}
+				<strong>No pages currently in category. </strong>
+				<a href="/rango/category/{{category.slug}}/add_page/"><strong>add page</strong></a>
+			{% endif %}
+		{% else %}
+			<strong>La categoria no existe ni tiene paginas asociadas</strong>
+		{% endif %}
+	</div>
+
+
+</body>
+</html>
