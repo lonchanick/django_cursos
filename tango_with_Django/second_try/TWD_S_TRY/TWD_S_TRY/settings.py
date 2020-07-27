@@ -14,7 +14,16 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#os.path.dirname y os.pathabspath sirven para conseguir el directorio actual donde
+#se aloja el proyecto en cuestion
+TEMPLATES_DIR=os.path.join(BASE_DIR,'templates')#ADDED
+STATIC_DIR=os.path.join(BASE_DIR,'static')#ADDED
+#este directorio es para archivos que no son estaticos, es decir que pueden varia
+#en el tiempo Ej. la foto de perfil de un usuario
+MEDIA_DIR=os.path.join(BASE_DIR,'media')#ADDED
 
+MEDIA_ROOT=MEDIA_DIR#ADDED
+MEDIA_URL='/media/'#ADDED
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -38,6 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rango',
+    'practice',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +66,7 @@ ROOT_URLCONF = 'TWD_S_TRY.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -63,6 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',#ADDED
             ],
         },
     },
@@ -118,4 +130,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/' #sirver para acceder a los archivos estaticos del lado del cliente P.e. http://127.0.0.1:8000/static/
+
+#Esta lista fue creada para indicar el nuevo directorio de los statics files
+STATICFILES_DIRS=[STATIC_DIR,]#ADDED

@@ -1,0 +1,96 @@
+/**/
+#img_perfil {
+	width:300px !important;
+	height:300px !important;
+}
+
+#header{
+	background: #000000;
+	color: white;
+	padding: 20px;
+	
+}
+
+#header h1{
+	margin: 0px 10px;
+
+}
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+#header ul {
+	list-style: none;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#header li {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+#header ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header ul a:hover{
+	color: #cccccc;
+}
+
+#content {
+	padding: 20px;
+}
+
+.tow-colums img, .tow-colums p {
+	float: left;
+	width: 40%
+}
+
+.tow-colums p{
+	margin: 0px 20px;
+}
+#content form {
+	clear: both;
+}
+
+#content form [type=text], #content form [type=email], #content form textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 50%;
+	padding: 10px;
+	border: 0px;
+	background-color: #efefef;
+	color: #666666;
+}
+
+#content table tr{
+	background: #ccc;
+
+}
+
+#content table tr:nth-child(even){
+	background-color: #efefef;
+}
+
+#content table tr:nth-child(odd){
+	background-color: #D18B00; 
+}
+
+#content table tr >*{
+	padding: 3px 10px;
+	border-bottom: 1px solid #666;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

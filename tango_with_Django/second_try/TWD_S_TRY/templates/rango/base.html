@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>{% block title %}Home page {% endblock %}</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+	<div id="header">
+		<h1>Bienvenido a mi pagina web</h1>
+		<ul>
+			<li><a href="{% url 'rango:index' %}">Rango</a></li>
+			<li><a href="{% url 'practice:index' %}">Practicing</a></li>
+		</ul>
+	</div>
+
+	<div style="padding-left: 20px;">
+		{% block content %}{% endblock %}
+	</div>
+
+</body>
+</html>
