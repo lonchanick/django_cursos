@@ -4,11 +4,14 @@
 	- virtual env
 
 1- iniciar projecto django: django-admin.py -> startproject project-name
+
 2- iniciar nueva app dentro del proyecto -> python manage.py startapp app-name
 	2.1- registra la nueva app en el archivo config.py
+
 3- crea el o los modelos a utilizar en el archivo models.py de tu app
 	3.1- crea la migracion del modelo -> python manage.py makemigration
 	3.2- migra el modelo -> python manage.py migrate
+
 4- habilita el admin de django
 	4.1- importa el modelo -> from .models import Post
 	4.2- registra el modelo -> admin.site.register(Post)
@@ -16,6 +19,30 @@
 #TOMADO DEL PDF TANGO WITH DJANGO
 5- configura la variable DIR_BASE en el modulo settings.py
 6- registra el directorio para archivos estaticos (imagenes del sitio, css, etc)
+	#Existe dos formas de manejar los statics files.
+		#1- Creando una carpeta nueva 'app/static/app/images' dentro de cada aplicacion
+			, es necesario crear otra carpeta con el nombre de la aplicacion desde la que
+			estamos trabajando
+
+		#2.- Configurando settings.py para que creconozca un nuevo directorio.
+			STATIC_DIR=os.path.join(BASE_DIR,'static')
+			
+			STATIC_URL = '/static/' #sirver para acceder a los archivos estaticos del lado del cliente P.e. http://127.0.0.1:8000/static/
+			
+			STATICFILES_DIRS=[STATIC_DIR,] #Esta lista fue creada para indicar el nuevo directorio de los statics files
+
 7- registra el directorio para archivos dinamicos (user picture profile, etc)
+	#es basicamente el mismo proceso para los statics files
+	modificando settings.py
+		#1 MEDIA_DIR=os.path.join(BASE_DIR,'media')
+		#2 MEDIA_ROOT=MEDIA_DIR
+		#3 MEDIA_URL='/media/'
+		#4 agrega esto al la lista urlpatterns:
+			urlpatterns = [
+							...
+							...
+			] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
 
 # python manage.py shell //inicia la consola interactiva

@@ -1,0 +1,16 @@
+{% extends 'rango/base.html' %}
+{% block title %}Fields Types{%endblock%}
+
+{% block content %}
+	<center><h1>Practicando con tipos de campos</h1></center>
+
+	<form id="fields_types_form" method="POST" action="/practice/fields_types/">{%csrf_token%}
+		{% for f in form %}
+		{{f.help_text}}
+		{{f}}
+		{%endfor%}
+
+		<button type="submit">NO LO HAGAS</button>
+	</form>
+
+{% endblock %}

@@ -5,6 +5,7 @@ lista=['nombre','casa',None,3.1516,1991]
 from django.shortcuts import render
 from django.http import HttpResponse
 from practice.models import Comment,Post
+from practice.forms import Fields_types_form
 
 # Create your views here.
 def index(request):
@@ -30,4 +31,8 @@ def templates(request):
 	}
 
 	return render(request,'practice/templates.html',{'context':d1})
+	
+def fields_types(request):
+	form=Fields_types_form()
+	return render(request,'practice/fields_types.html',{'form':form})
 	

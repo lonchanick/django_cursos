@@ -16,4 +16,8 @@ class Comment(models.Model):
 	def __str__(self):
 		return self.comment_text[0:50]
 
+class Fields_types(models.Model):
+	BIF=models.BigIntegerField() 
+
+
 		

@@ -1,4 +1,0 @@
-https://docs.djangoproject.com/en/2.2/topics/db/models/ 
-Extra fields on many-to-many relationships
-
--> Executing custom SQL
