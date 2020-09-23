@@ -12,8 +12,10 @@ class Category(models.Model):
 		self.slug=slugify(self.name)
 		super(Category, self).save(*args,**kwargs)
 
+	#Esta clase es para que se muestre correctamente el nombre plural del modelo  
+	#dentro del administrador de django 'django.admin'
 	class Meta:
-		verbose_name_plural='Categories'
+		verbose_name_plural='Categories_XXXX'
 
 	def __str__(self):
 		return self.name
