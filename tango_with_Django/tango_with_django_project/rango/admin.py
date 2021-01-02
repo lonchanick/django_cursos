@@ -6,6 +6,8 @@ class PageAdmin(admin.ModelAdmin):
 
 class CategoryAdmin(admin.ModelAdmin):
 	prepopulated_fields={'slug':('name',)}
+	exclude=['views','likes']
+	#readonly_fields=['slug'] #no esposible hace readonly un campo que se autorellena
 		
 
 admin.site.register(Page,PageAdmin)

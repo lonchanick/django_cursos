@@ -1,0 +1,9 @@
+hola mundo ¿Como estas?total 3780
+drwxrwxr-x  4 israel israel    4096 sep 23 22:33 .
+drwxrwxr-x 11 israel israel    4096 jul 27 14:24 ..
+drwxrwxr-x  6 israel israel    4096 may 18 19:54 env
+-rw-rw-r--  1 israel israel      24 sep 23 22:34 example.txt
+-rw-rw-r--  1 israel israel      69 sep 23 22:28 subl_tango_with_django.sublime-project
+-rw-rw-r--  1 israel israel   17275 sep 23 22:28 subl_tango_with_django.sublime-workspace
+-rw-------  1 israel israel 3823065 ago  3 23:37 tangowithdjango2-sample.pdf
+drwxrwxr-x  8 israel israel    4096 sep 22 19:06 tango_with_django_project
